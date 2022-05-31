@@ -1,7 +1,7 @@
 
 function CurrentDayForecast(city) {
 
-    var APIkey = "&appid=801906cebc106515bac3bda6ad7c527b";
+    var APIkey = "&appid=e0e47d09ebe50e2543911456de5ce717";
     var queryURL = "https://api.openweathermap.org/data/2.5/forecast?q=" + city + APIkey;
 
     $.ajax({
